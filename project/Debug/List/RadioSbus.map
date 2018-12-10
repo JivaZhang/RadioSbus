@@ -1,0 +1,564 @@
+###############################################################################
+#
+# IAR ELF Linker V7.60.2.11341/W32 for ARM                07/Dec/2018  11:45:04
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out
+#    Map file     =  
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\List\RadioSbus.map
+#    Command line =  
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\cmsis_os.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\croutine.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\event_groups.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\freertos.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\gpio.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\heap_4.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\list.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\main.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\port.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\portasm.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\queue.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\radio.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\sbus.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\startup_stm32f205xx.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_adc.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_adc_ex.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_cortex.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_crc.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_dma.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_dma_ex.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_flash.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_flash_ex.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_gpio.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_i2c.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_iwdg.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_pwr.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_pwr_ex.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_rcc.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_rcc_ex.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_spi.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_sram.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_tim.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_tim_ex.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_uart.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_usart.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\stm32f2xx_hal_wwdg.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\system_stm32f2xx.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\tasks.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\timers.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\trcKernelPort.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\trcSnapshotRecorder.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\trcStreamingPort.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\trcStreamingRecorder.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\usart.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\userhardwareinit.o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj\watchdog.o
+#        -o
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --map
+#        D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\List\RadioSbus.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.4\arm\config\linker\ST\stm32f205xG.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x184
+  .intvec            ro code  0x08000000   0x184  startup_stm32f205xx.o [1]
+                            - 0x08000184   0x184
+
+"P1":                                     0x3278
+  .text              ro code  0x08000184   0x794  tasks.o [1]
+  CODE               ro code  0x08000918    0x94  portasm.o [1]
+  .text              ro code  0x080009ac   0x190  port.o [1]
+  .text              ro code  0x08000b3c    0x90  list.o [1]
+  .text              ro code  0x08000bcc   0x1ac  heap_4.o [1]
+  .text              ro code  0x08000d78    0x3a  ABImemset48.o [4]
+  .text              ro code  0x08000db4   0x6d4  stm32f2xx_hal_rcc.o [1]
+  .text              ro code  0x08001488    0x12  main.o [1]
+  .text              ro code  0x0800149c    0x68  stm32f2xx_hal.o [1]
+  .text              ro code  0x08001504   0x10a  userhardwareinit.o [1]
+  .text              ro code  0x08001610   0x128  freertos.o [1]
+  .text              ro code  0x08001738    0x72  cmsis_os.o [1]
+  .text              ro code  0x080017ac   0x210  stm32f2xx_hal_cortex.o [1]
+  .text              ro code  0x080019bc    0x7c  gpio.o [1]
+  .text              ro code  0x08001a38   0x59c  usart.o [1]
+  .text              ro code  0x08001fd4    0x76  ABImemcpy_unaligned.o [4]
+  .text              ro code  0x0800204c   0x5de  queue.o [1]
+  .text              ro code  0x0800262c   0x4a4  stm32f2xx_hal_uart.o [1]
+  .text              ro code  0x08002ad0   0x3b8  stm32f2xx_hal_gpio.o [1]
+  .text              ro code  0x08002e88   0x234  radio.o [1]
+  .text              ro code  0x080030bc    0x74  sbus.o [1]
+  .text              ro code  0x08003130    0x40  system_stm32f2xx.o [1]
+  .text              ro code  0x08003170    0x40  zero_init3.o [4]
+  .rodata            const    0x080031b0    0x2c  freertos.o [1]
+  .text              ro code  0x080031dc    0x2c  copy_init3.o [4]
+  .text              ro code  0x08003208    0x28  data_init.o [4]
+  .iar.init_table    const    0x08003230    0x24  - Linker created -
+  .text              ro code  0x08003254    0x1a  cmain.o [4]
+  .text              ro code  0x0800326e     0x4  low_level_init.o [3]
+  .text              ro code  0x08003272     0x4  exit.o [3]
+  .text              ro code  0x08003278     0xa  cexit.o [4]
+  .text              ro code  0x08003284    0x14  exit.o [5]
+  .text              ro code  0x08003298    0x10  startup_stm32f205xx.o [1]
+  Initializer bytes  const    0x080032a8    0x10  <for P2-1>
+  .text              ro code  0x080032b8     0xc  cstartup_M.o [4]
+  .text              ro code  0x080032c4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032c8     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032cc     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032d0     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032d4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032d8     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032dc     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032e0     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032e4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032e8     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032ec     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032f0     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032f4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032f8     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080032fc     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003300     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003304     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003308     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800330c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003310     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003314     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003318     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800331c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003320     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003324     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003328     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800332c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003330     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003334     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003338     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800333c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003340     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003344     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003348     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800334c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003350     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003354     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003358     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800335c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003360     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003364     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003368     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800336c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003370     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003374     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003378     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800337c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003380     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003384     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003388     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800338c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003390     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003394     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x08003398     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x0800339c     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033a0     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033a4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033a8     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033ac     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033b0     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033b4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033b8     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033bc     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033c0     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033c4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033c8     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033cc     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033d0     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033d4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033d8     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033dc     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033e0     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033e4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033e8     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033ec     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033f0     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033f4     0x4  startup_stm32f205xx.o [1]
+  .text              ro code  0x080033f8     0x4  startup_stm32f205xx.o [1]
+  .rodata            const    0x080033fc     0x0  zero_init3.o [4]
+  .rodata            const    0x080033fc     0x0  copy_init3.o [4]
+                            - 0x080033fc  0x3278
+
+"P2", part 1 of 3:                          0x10
+  P2-1                        0x20000000    0x10  <Init block>
+    .data            inited   0x20000000     0xc  port.o [1]
+    .data            inited   0x2000000c     0x4  system_stm32f2xx.o [1]
+                            - 0x20000010    0x10
+
+"P2", part 2 of 3:                        0x2000
+  CSTACK                      0x20000010  0x2000  <Block>
+    CSTACK           uninit   0x20000010  0x2000  <Block tail>
+                            - 0x20002010  0x2000
+
+"P2", part 3 of 3:                        0x3eb8
+  .bss               zero     0x20002010  0x3c18  heap_4.o [1]
+  .bss               zero     0x20005c28    0x9c  tasks.o [1]
+  .bss               zero     0x20005cc4    0x8c  tasks.o [1]
+  .bss               zero     0x20005d50    0x48  usart.o [1]
+  .bss               zero     0x20005d98    0x40  usart.o [1]
+  .bss               zero     0x20005dd8    0x40  usart.o [1]
+  .bss               zero     0x20005e18    0x40  usart.o [1]
+  .bss               zero     0x20005e58    0x24  radio.o [1]
+  .bss               zero     0x20005e7c    0x1c  sbus.o [1]
+  .bss               zero     0x20005e98     0xc  radio.o [1]
+  .bss               zero     0x20005ea4     0x4  freertos.o [1]
+  .bss               zero     0x20005ea8     0x4  radio.o [1]
+  .bss               zero     0x20005eac     0x4  radio.o [1]
+  .bss               zero     0x20005eb0     0x4  sbus.o [1]
+  .bss               zero     0x20005eb4     0x4  sbus.o [1]
+  .bss               zero     0x20005eb8     0x4  sbus.o [1]
+  .bss               zero     0x20005ebc     0x4  sbus.o [1]
+  .bss               zero     0x20005ec0     0x4  stm32f2xx_hal.o [1]
+  .bss               zero     0x20005ec4     0x1  sbus.o [1]
+                            - 0x20005ec5  0x3eb5
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x3eb5:
+          0x20002010  0x3eb5
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+          0x080032a8    0x10
+    1 destination range, total size 0x10:
+          0x20000000    0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj: [1]
+    cmsis_os.o                  114
+    freertos.o                  296       44        4
+    gpio.o                      124
+    heap_4.o                    428            15 384
+    list.o                      144
+    main.o                       18
+    port.o                      400       12       12
+    portasm.o                   148
+    queue.o                   1 502
+    radio.o                     564                56
+    sbus.o                      116                45
+    startup_stm32f205xx.o       716
+    stm32f2xx_hal.o             104                 4
+    stm32f2xx_hal_cortex.o      528
+    stm32f2xx_hal_gpio.o        952
+    stm32f2xx_hal_rcc.o       1 748
+    stm32f2xx_hal_uart.o      1 188
+    system_stm32f2xx.o           64        4        4
+    tasks.o                   1 940               296
+    usart.o                   1 436               264
+    userhardwareinit.o          266
+    -------------------------------------------------
+    Total:                   12 796       60   16 069
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [4]
+    ABImemcpy_unaligned.o       118
+    ABImemset48.o                58
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      372
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         16
+    Linker created                        36    8 192
+-----------------------------------------------------
+    Grand Total:             13 212       96   24 261
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08003230           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08003254           --   Gb  - Linker created -
+?main                   0x08003255          Code  Gb  cmain.o [4]
+APBAHBPrescTable        0x08001478    0x10  Data  Gb  stm32f2xx_hal_rcc.o [1]
+CSTACK$$Base            0x20000010           --   Gb  - Linker created -
+CSTACK$$Limit           0x20002010           --   Gb  - Linker created -
+EnableUsartAllInterrupt
+                        0x08001f49    0x26  Code  Gb  usart.o [1]
+Error_Handler           0x08001609     0x2  Code  Gb  userhardwareinit.o [1]
+FREERTOS_Init           0x08001611    0x20  Code  Gb  freertos.o [1]
+GpioInit                0x080019bd    0x7c  Code  Gb  gpio.o [1]
+HAL_GPIO_Init           0x08002ad1   0x2ec  Code  Gb  stm32f2xx_hal_gpio.o [1]
+HAL_GetTick             0x080014f1     0x6  Code  Wk  stm32f2xx_hal.o [1]
+HAL_Init                0x0800149d    0x30  Code  Gb  stm32f2xx_hal.o [1]
+HAL_InitTick            0x080014cd    0x24  Code  Wk  stm32f2xx_hal.o [1]
+HAL_MspInit             0x080015a9    0x60  Code  Gb  userhardwareinit.o [1]
+HAL_NVIC_EnableIRQ      0x080018cd    0x18  Code  Gb  stm32f2xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08001893    0x3a  Code  Gb  stm32f2xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08001869    0x2a  Code  Gb  stm32f2xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x0800112b   0x212  Code  Gb  stm32f2xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08001391     0x6  Code  Gb  stm32f2xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08001397    0x18  Code  Gb  stm32f2xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x080013af    0x18  Code  Gb  stm32f2xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x0800133d    0x54  Code  Gb  stm32f2xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08000db5   0x376  Code  Gb  stm32f2xx_hal_rcc.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x080018e7    0x32  Code  Gb  stm32f2xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x080018e5     0x2  Code  Gb  stm32f2xx_hal_cortex.o [1]
+HAL_UART_Init           0x0800262d   0x11e  Code  Gb  stm32f2xx_hal_uart.o [1]
+HAL_UART_MspInit        0x08001b01   0x20a  Code  Gb  usart.o [1]
+NVIC_EnableIRQ          0x080017d7    0x14  Code  Lc  stm32f2xx_hal_cortex.o [1]
+NVIC_EncodePriority     0x08001809    0x36  Code  Lc  stm32f2xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x080017cb     0xc  Code  Lc  stm32f2xx_hal_cortex.o [1]
+NVIC_SetPriority        0x080017eb    0x1e  Code  Lc  stm32f2xx_hal_cortex.o [1]
+NVIC_SetPriority        0x08001a39    0x1e  Code  Lc  usart.o [1]
+NVIC_SetPriorityGrouping
+                        0x080017ad    0x1e  Code  Lc  stm32f2xx_hal_cortex.o [1]
+PendSV_Handler          0x08000919          Code  Gb  portasm.o [1]
+PreSetupHardware        0x08001505    0x1e  Code  Gb  userhardwareinit.o [1]
+RadioMsgRxTask          0x08002fb3    0x4e  Code  Gb  radio.o [1]
+RadioMsgTxTask          0x08003001    0x92  Code  Gb  radio.o [1]
+RadioParserChar         0x08002ec5    0x5e  Code  Gb  radio.o [1]
+Region$$Table$$Base     0x08003230           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08003254           --   Gb  - Linker created -
+RepackSbusMsg           0x08002f23    0x28  Code  Gb  radio.o [1]
+ResetRadioParser        0x08002e89     0x8  Code  Gb  radio.o [1]
+SVC_Handler             0x0800096b          Code  Gb  portasm.o [1]
+SbusParserChar          0x080030bd    0x74  Code  Gb  sbus.o [1]
+SendMessage2Sbus        0x08002e91    0x34  Code  Gb  radio.o [1]
+SendMessage2Serial      0x08002f7f    0x34  Code  Gb  radio.o [1]
+SendMsg2Radio           0x08002f4b    0x34  Code  Gb  radio.o [1]
+StartTask               0x08001631    0xa6  Code  Gb  freertos.o [1]
+SysTick_Config          0x0800183f    0x2a  Code  Lc  stm32f2xx_hal_cortex.o [1]
+SysTick_Handler         0x0800160b     0x4  Code  Gb  userhardwareinit.o [1]
+SystemClockConfig       0x08001523    0x86  Code  Lc  userhardwareinit.o [1]
+SystemCoreClock         0x2000000c     0x4  Data  Gb  system_stm32f2xx.o [1]
+SystemInit              0x08003131    0x30  Code  Gb  system_stm32f2xx.o [1]
+UART4_IRQHandler        0x08001e9b    0xac  Code  Gb  usart.o [1]
+UART_SetConfig          0x08002769   0x2d0  Code  Lc  stm32f2xx_hal_uart.o [1]
+USART1_IRQHandler       0x08001d0b    0x96  Code  Gb  usart.o [1]
+USART2_IRQHandler       0x08001da1    0x5e  Code  Gb  usart.o [1]
+USART3_IRQHandler       0x08001dff    0x9c  Code  Gb  usart.o [1]
+USART6_IRQHandler       0x08001f47     0x2  Code  Gb  usart.o [1]
+Usart1UartInit          0x08001a57    0x36  Code  Gb  usart.o [1]
+Usart3UartInit          0x08001a8d    0x36  Code  Gb  usart.o [1]
+Usart4UartInit          0x08001ac3    0x3e  Code  Gb  usart.o [1]
+__aeabi_memset4         0x08000d79          Code  Gb  ABImemset48.o [4]
+__aeabi_memset8         0x08000d79          Code  Gb  ABImemset48.o [4]
+__cmain                 0x08003255          Code  Gb  cmain.o [4]
+__exit                  0x08003285    0x14  Code  Gb  exit.o [5]
+__iar_Memset4_word      0x08000d81          Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x08000d81          Code  Gb  ABImemset48.o [4]
+__iar_copy_init3        0x080031dd    0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x08003209    0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x080032b9          Code  Gb  cstartup_M.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x08001fd5          Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy4
+                        0x08001ff5          Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy8
+                        0x08001ff5          Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3        0x08003171    0x40  Code  Gb  zero_init3.o [4]
+__low_level_init        0x0800326f     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f205xx.o [1]
+_call_main              0x08003261          Code  Gb  cmain.o [4]
+_exit                   0x08003279          Code  Gb  cexit.o [4]
+_main                   0x0800326b          Code  Gb  cmain.o [4]
+assert_failed           0x08001499     0x2  Code  Gb  main.o [1]
+debug_c                 0x20005ec4     0x1  Data  Gb  sbus.o [1]
+error_cnt               0x20005d90     0x4  Data  Gb  usart.o [1]
+exit                    0x08003273     0x4  Code  Gb  exit.o [3]
+gSbusMsgParser          0x20005e7c    0x1c  Data  Gb  sbus.o [1]
+good_cnt                0x20005d94     0x4  Data  Gb  usart.o [1]
+huart1                  0x20005d98    0x40  Data  Gb  usart.o [1]
+huart2                  0x20005dd8    0x40  Data  Gb  usart.o [1]
+huart3                  0x20005e18    0x40  Data  Gb  usart.o [1]
+huart4                  0x20005d50    0x40  Data  Gb  usart.o [1]
+main                    0x08001489    0x10  Code  Gb  main.o [1]
+makeFreeRtosPriority    0x08001739     0xc  Code  Lc  cmsis_os.o [1]
+osDelay                 0x08001787    0x10  Code  Gb  cmsis_os.o [1]
+osKernelStart           0x08001745     0xa  Code  Gb  cmsis_os.o [1]
+osSystickHandler        0x08001797    0x14  Code  Gb  cmsis_os.o [1]
+osThreadCreate          0x0800174f    0x38  Code  Gb  cmsis_os.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x08000737    0x32  Code  Lc  tasks.o [1]
+prvAllocateTCBAndStack  0x08000769    0x3e  Code  Lc  tasks.o [1]
+prvCheckTasksWaitingTermination
+                        0x080006ef    0x48  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x08002569    0x24  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x080024ef    0x7a  Code  Lc  queue.o [1]
+prvDeleteTCB            0x080007a7    0x14  Code  Lc  tasks.o [1]
+prvHeapInit             0x08000cd7    0x4e  Code  Lc  heap_4.o [1]
+prvIdleTask             0x08000631    0x16  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables
+                        0x08000647    0x58  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x0800069f    0x50  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                        0x08000d25    0x4e  Code  Lc  heap_4.o [1]
+prvIsQueueEmpty         0x080025f5    0x18  Code  Lc  queue.o [1]
+prvIsQueueFull          0x0800260d    0x1e  Code  Lc  queue.o [1]
+prvResetNextTaskUnblockTime
+                        0x080007bb    0x1e  Code  Lc  tasks.o [1]
+prvTaskExitError        0x080009cd    0x18  Code  Lc  port.o [1]
+prvUnlockQueue          0x0800258d    0x68  Code  Lc  queue.o [1]
+pvPortMalloc            0x08000bcd    0xba  Code  Gb  heap_4.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x080008e9    0x16  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x20005c50     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x20005c54     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x20002018     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x20005c58     0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack   0x080009ad    0x1e  Code  Gb  port.o [1]
+pxReadyTasksLists       0x20005cc4    0x8c  Data  Lc  tasks.o [1]
+radioMsgRxQHandle       0x20005e58     0x4  Data  Gb  radio.o [1]
+radioMsgRxTaskHandle    0x20005ea8     0x4  Data  Gb  radio.o [1]
+radioMsgTxQHandle       0x20005e98     0x4  Data  Gb  radio.o [1]
+radioMsgTxTaskHandle    0x20005eac     0x4  Data  Gb  radio.o [1]
+recBad                  0x20005e9c     0x4  Data  Gb  radio.o [1]
+recOK                   0x20005ea0     0x4  Data  Gb  radio.o [1]
+sRadioMsgParser         0x20005e5c    0x20  Data  Gb  radio.o [1]
+sbusMsgRxQHandle        0x20005eb0     0x4  Data  Gb  sbus.o [1]
+sbusMsgTxQHandle        0x20005eb4     0x4  Data  Gb  sbus.o [1]
+serialMsgRxQHandle      0x20005eb8     0x4  Data  Gb  sbus.o [1]
+serialMsgTxQHandle      0x20005ebc     0x4  Data  Gb  sbus.o [1]
+startTaskHandle         0x20005ea4     0x4  Data  Gb  freertos.o [1]
+ucHeap                  0x20002028  0x3c00  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x20000000     0x1  Data  Lc  port.o [1]
+ulMaxPRIGROUPValue      0x20000008     0x4  Data  Lc  port.o [1]
+ulPortSetInterruptMask  0x08000957          Code  Gb  portasm.o [1]
+uwTick                  0x20005ec0     0x4  Data  Gb  stm32f2xx_hal.o [1]
+uxCriticalNesting       0x20000004     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x20005c74     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x08000ba9    0x24  Code  Gb  list.o [1]
+uxPendedTicks           0x20005c84     0x4  Data  Lc  tasks.o [1]
+uxQueueMessagesWaiting  0x080024d5    0x1a  Code  Gb  queue.o [1]
+uxSchedulerSuspended    0x20005c98     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x20005c90     0x4  Data  Lc  tasks.o [1]
+uxTasksDeleted          0x20005c5c     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x20005c7c     0x4  Data  Lc  tasks.o [1]
+vListInitialise         0x08000b3d    0x1a  Code  Gb  list.o [1]
+vListInitialiseItem     0x08000b57     0x6  Code  Gb  list.o [1]
+vListInsert             0x08000b75    0x34  Code  Gb  list.o [1]
+vListInsertEnd          0x08000b5d    0x18  Code  Gb  list.o [1]
+vPortClearInterruptMask
+                        0x08000965          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x08000a61    0x2c  Code  Gb  port.o [1]
+vPortExitCritical       0x08000a8d    0x22  Code  Gb  port.o [1]
+vPortFree               0x08000c87    0x50  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt
+                        0x08000acf    0x18  Code  Wk  port.o [1]
+vPortStartFirstTask     0x0800098b          Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                        0x08000ae9    0x32  Code  Gb  port.o [1]
+vPortYield              0x08000a4f    0x12  Code  Gb  port.o [1]
+vTaskDelay              0x08000279    0x58  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x08000627     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x080004eb    0x58  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x080007f5    0x78  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x080005ab    0x1a  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x080002d1    0x50  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x08000321     0xc  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x08000499    0x52  Code  Gb  tasks.o [1]
+xBlockAllocatedBit      0x20002024     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x20005c9c    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x20005cb0    0x14  Data  Lc  tasks.o [1]
+xFreeBytesRemaining     0x2000201c     0x4  Data  Lc  heap_4.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x20002020     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x20005c94     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x20005c8c     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x20005c28    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x080009e5    0x6a  Code  Gb  port.o [1]
+xPortSysTickHandler     0x08000aaf    0x20  Code  Gb  port.o [1]
+xQueueGenericCreate     0x080020bf    0x6a  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x08002303   0x14e  Code  Gb  queue.o [1]
+xQueueGenericReset      0x0800204d    0x72  Code  Gb  queue.o [1]
+xQueueGenericSend       0x08002129   0x134  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x0800225d    0xa6  Code  Gb  queue.o [1]
+xQueueReceiveFromISR    0x08002451    0x84  Code  Gb  queue.o [1]
+xSchedulerRunning       0x20005c80     0x4  Data  Lc  tasks.o [1]
+xStart                  0x20002010     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x20005c60    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x080005c5    0x62  Code  Gb  tasks.o [1]
+xTaskGenericCreate      0x08000185    0xf4  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x080007d9    0x1c  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x080003d1    0xc8  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x0800086d    0x7c  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x08000543    0x68  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x0800032d    0xa4  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20005c3c    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x20005c78     0x4  Data  Lc  tasks.o [1]
+xYieldPending           0x20005c88     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  13 212 bytes of readonly  code memory
+      96 bytes of readonly  data memory
+  24 261 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>D:\efly\workspace\NI\NIB_V0.01\Application\inc\gsmsgdispatch.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\NI\NIB_V0.01\Application\src\df.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\NI\NIB_V0.01\Application\src\fc.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\NI\NIB_V0.01\Application\src\freertos.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\NI\NIB_V0.01\Application\src\gsmsgdispatch.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\NI\NIB_V0.01\Application\src\main.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\NI\NIB_V0.01\Application\src\usart.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\RadioSbusEDcoder\NIB_V0.01\Application\src\gsmsgdispatch.c</path>
+    <encoding>System</encoding>
+  </override>
+</userOverrides>
+
+

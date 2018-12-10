@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>D:\efly\workspace\RadioSbusEDcoder\RadioSbus\Application\src\freertos.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\RadioSbusEDcoder\RadioSbus\Application\src\gsmsgdispatch.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\RadioSbusEDcoder\RadioSbus\Application\src\main.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\RadioSbusEDcoder\RadioSbus\Application\src\radio.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\efly\workspace\RadioSbusEDcoder\RadioSbus\Application\src\sbus.c</path>
+    <encoding>System</encoding>
+  </override>
+</userOverrides>
+
+

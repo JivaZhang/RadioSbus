@@ -1,0 +1,147 @@
+Thu Dec 06, 2018 14:37:23: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+Thu Dec 06, 2018 14:37:24: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+Thu Dec 06, 2018 14:37:25: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+Thu Dec 06, 2018 14:37:34: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+Thu Dec 06, 2018 14:37:55: Unloaded macro file: D:\efly\documents\save_trace_buffer.mac
+Thu Dec 06, 2018 14:37:55: Loaded macro file: D:\efly\documents\save_trace_buffer.mac
+Thu Dec 06, 2018 14:37:59: Unloaded macro file: D:\efly\documents\save_trace_buffer.mac
+Thu Dec 06, 2018 14:37:59: Loaded macro file: D:\efly\documents\save_trace_buffer.mac
+Thu Dec 06, 2018 14:38:01: Breakpoint hit: Code @ usart.c:554.5, type: default (auto) 
+Thu Dec 06, 2018 14:38:02: Breakpoint hit: Code @ usart.c:554.5, type: default (auto) 
+Thu Dec 06, 2018 14:38:04: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+Thu Dec 06, 2018 14:43:31: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+Thu Dec 06, 2018 14:43:32: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+Thu Dec 06, 2018 14:43:37: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+Thu Dec 06, 2018 14:43:37: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+
+
+ << Logging to file resumes >> 
+
+Thu Dec 06, 2018 14:47:39: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\debugger\ST\STM32F2xx.dmac
+Thu Dec 06, 2018 14:47:39: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Thu Dec 06, 2018 14:47:39: ST-Link firmware too old
+Thu Dec 06, 2018 14:47:41: Connected to ST-Link/V2 [SWD mode 1800 kHz] Firmware V2.J17.S4 (Probe no: 0E25D75B)
+Thu Dec 06, 2018 14:47:41: Software reset was performed
+Thu Dec 06, 2018 14:47:41: Initial reset was performed
+Thu Dec 06, 2018 14:47:41: 992 bytes downloaded (7.75 Kbytes/sec)
+Thu Dec 06, 2018 14:47:41: Loaded debugee: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.out
+Thu Dec 06, 2018 14:47:41: Target reset
+Thu Dec 06, 2018 14:47:42: Unloaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Thu Dec 06, 2018 14:47:42: Downloaded D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out to flash memory.
+Thu Dec 06, 2018 14:47:42: Loaded macro file: D:\efly\documents\save_trace_buffer.mac
+Thu Dec 06, 2018 14:47:42: Software reset was performed
+Thu Dec 06, 2018 14:47:43: 13308 bytes downloaded into FLASH (6.94 Kbytes/sec)
+Thu Dec 06, 2018 14:47:43: Loaded debugee: D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out
+Thu Dec 06, 2018 14:47:43: Software reset was performed
+Thu Dec 06, 2018 14:47:43: Target reset
+Thu Dec 06, 2018 14:47:44: getPersistentQuickLaunchMacros
+Thu Dec 06, 2018 14:48:09: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+
+
+ << Logging to file resumes >> 
+
+Thu Dec 06, 2018 15:05:26: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\debugger\ST\STM32F2xx.dmac
+Thu Dec 06, 2018 15:05:26: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Thu Dec 06, 2018 15:05:27: ST-Link firmware too old
+Thu Dec 06, 2018 15:05:29: Connected to ST-Link/V2 [SWD mode 1800 kHz] Firmware V2.J17.S4 (Probe no: 2798FD0D)
+Thu Dec 06, 2018 15:05:29: Software reset was performed
+Thu Dec 06, 2018 15:05:29: Initial reset was performed
+Thu Dec 06, 2018 15:05:29: 992 bytes downloaded (8.81 Kbytes/sec)
+Thu Dec 06, 2018 15:05:29: Loaded debugee: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.out
+Thu Dec 06, 2018 15:05:29: Target reset
+Thu Dec 06, 2018 15:05:30: Unloaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Thu Dec 06, 2018 15:05:30: Downloaded D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out to flash memory.
+Thu Dec 06, 2018 15:05:30: Loaded macro file: D:\efly\documents\save_trace_buffer.mac
+Thu Dec 06, 2018 15:05:30: Software reset was performed
+Thu Dec 06, 2018 15:05:31: 13308 bytes downloaded into FLASH (7.12 Kbytes/sec)
+Thu Dec 06, 2018 15:05:31: Loaded debugee: D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out
+Thu Dec 06, 2018 15:05:31: Software reset was performed
+Thu Dec 06, 2018 15:05:31: Target reset
+Thu Dec 06, 2018 15:05:32: getPersistentQuickLaunchMacros
+
+
+ << Logging to file resumes >> 
+
+Fri Dec 07, 2018 10:10:02: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\debugger\ST\STM32F2xx.dmac
+Fri Dec 07, 2018 10:10:02: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Fri Dec 07, 2018 10:10:02: ST-Link firmware too old
+Fri Dec 07, 2018 10:10:03: Fatal error: ST-Link, No MCU device found   Session aborted!
+Fri Dec 07, 2018 10:10:03: Unloaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+
+
+ << Logging to file resumes >> 
+
+Fri Dec 07, 2018 10:10:16: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\debugger\ST\STM32F2xx.dmac
+Fri Dec 07, 2018 10:10:16: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Fri Dec 07, 2018 10:10:16: ST-Link firmware too old
+Fri Dec 07, 2018 10:10:18: Connected to ST-Link/V2 [SWD mode 1800 kHz] Firmware V2.J17.S4 (Probe no: 2798FD0D)
+Fri Dec 07, 2018 10:10:18: Software reset was performed
+Fri Dec 07, 2018 10:10:18: Initial reset was performed
+Fri Dec 07, 2018 10:10:18: 992 bytes downloaded (7.75 Kbytes/sec)
+Fri Dec 07, 2018 10:10:18: Loaded debugee: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.out
+Fri Dec 07, 2018 10:10:18: Target reset
+Fri Dec 07, 2018 10:10:19: Unloaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Fri Dec 07, 2018 10:10:19: Downloaded D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out to flash memory.
+Fri Dec 07, 2018 10:10:19: Loaded macro file: D:\efly\documents\save_trace_buffer.mac
+Fri Dec 07, 2018 10:10:19: Software reset was performed
+Fri Dec 07, 2018 10:10:20: 13308 bytes downloaded into FLASH (6.83 Kbytes/sec)
+Fri Dec 07, 2018 10:10:20: Loaded debugee: D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out
+Fri Dec 07, 2018 10:10:20: Software reset was performed
+Fri Dec 07, 2018 10:10:20: Target reset
+Fri Dec 07, 2018 10:10:20: Failed to enable illegal breakpoint definition '{D:\efly\workspace\RadioSbusEDcoder\RadioSbus\mlib\TraceRecorder\include\trcKernelPort.h}.59.1'
+Fri Dec 07, 2018 10:10:20: One or more breakpoints could not be set and have been disabled.
+Fri Dec 07, 2018 10:10:22: There was 1 warning during the initialization of the debugging session.
+Fri Dec 07, 2018 10:10:22: getPersistentQuickLaunchMacros
+Fri Dec 07, 2018 10:10:42: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+Fri Dec 07, 2018 10:10:43: D:\efly\documents\save_trace_buffer.mac(6,34): Error: Unknown or ambiguous symbol. RecorderDataPtr
+
+
+ << Logging to file resumes >> 
+
+Fri Dec 07, 2018 11:33:40: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\debugger\ST\STM32F2xx.dmac
+Fri Dec 07, 2018 11:33:40: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Fri Dec 07, 2018 11:33:40: ST-Link firmware too old
+Fri Dec 07, 2018 11:33:42: Connected to ST-Link/V2 [SWD mode 1800 kHz] Firmware V2.J17.S4 (Probe no: 2798FD0D)
+Fri Dec 07, 2018 11:33:42: Software reset was performed
+Fri Dec 07, 2018 11:33:42: Initial reset was performed
+Fri Dec 07, 2018 11:33:42: 992 bytes downloaded (6.92 Kbytes/sec)
+Fri Dec 07, 2018 11:33:42: Loaded debugee: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.out
+Fri Dec 07, 2018 11:33:42: Target reset
+Fri Dec 07, 2018 11:33:44: Unloaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Fri Dec 07, 2018 11:33:44: Downloaded D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out to flash memory.
+Fri Dec 07, 2018 11:33:44: Loaded macro file: D:\efly\documents\save_trace_buffer.mac
+Fri Dec 07, 2018 11:33:44: Software reset was performed
+Fri Dec 07, 2018 11:33:44: 22918 bytes downloaded into FLASH (8.80 Kbytes/sec)
+Fri Dec 07, 2018 11:33:44: Loaded debugee: D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out
+Fri Dec 07, 2018 11:33:44: Software reset was performed
+Fri Dec 07, 2018 11:33:44: Target reset
+Fri Dec 07, 2018 11:33:46: getPersistentQuickLaunchMacros
+Fri Dec 07, 2018 11:34:12: Saved 6425 bytes to D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\trace.hex
+Fri Dec 07, 2018 11:34:52: Saved 6425 bytes to D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\trace.hex
+Fri Dec 07, 2018 11:34:52: Saved 6425 bytes to D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\trace.hex
+Fri Dec 07, 2018 11:34:54: Saved 6425 bytes to D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\trace.hex
+Fri Dec 07, 2018 11:35:01: Saved 6425 bytes to D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\trace.hex
+Fri Dec 07, 2018 11:35:02: Saved 6425 bytes to D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\trace.hex
+Fri Dec 07, 2018 11:35:24: Saved 6425 bytes to D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\trace.hex
+
+
+ << Logging to file resumes >> 
+
+Fri Dec 07, 2018 11:45:06: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\debugger\ST\STM32F2xx.dmac
+Fri Dec 07, 2018 11:45:06: Loaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Fri Dec 07, 2018 11:45:06: ST-Link firmware too old
+Fri Dec 07, 2018 11:45:08: Connected to ST-Link/V2 [SWD mode 1800 kHz] Firmware V2.J17.S4 (Probe no: 2798FD0D)
+Fri Dec 07, 2018 11:45:08: Software reset was performed
+Fri Dec 07, 2018 11:45:08: Initial reset was performed
+Fri Dec 07, 2018 11:45:08: 992 bytes downloaded (6.92 Kbytes/sec)
+Fri Dec 07, 2018 11:45:08: Loaded debugee: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.out
+Fri Dec 07, 2018 11:45:08: Target reset
+Fri Dec 07, 2018 11:45:09: Unloaded macro file: C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\config\flashloader\ST\FlashSTM32F2xxxx.mac
+Fri Dec 07, 2018 11:45:09: Downloaded D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out to flash memory.
+Fri Dec 07, 2018 11:45:09: Loaded macro file: D:\efly\documents\save_trace_buffer.mac
+Fri Dec 07, 2018 11:45:09: Software reset was performed
+Fri Dec 07, 2018 11:45:10: 13308 bytes downloaded into FLASH (6.22 Kbytes/sec)
+Fri Dec 07, 2018 11:45:10: Loaded debugee: D:\efly\workspace\RadioSbusEDcoder\RadioSbus\project\Debug\Exe\RadioSbus.out
+Fri Dec 07, 2018 11:45:10: Software reset was performed
+Fri Dec 07, 2018 11:45:10: Target reset
+Fri Dec 07, 2018 11:45:11: getPersistentQuickLaunchMacros
